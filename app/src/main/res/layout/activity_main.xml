@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinator"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingaction"
+        android:onClick="designClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:elevation="3dp"
+        app:rippleColor="@color/colorAccent"
+        app:borderWidth="0dp"
+        android:backgroundTint="@color/colorPrimary"
+        app:pressedTranslationZ="6dp"
+        android:layout_margin="12dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="right|bottom"
+        />
+</android.support.design.widget.CoordinatorLayout>
